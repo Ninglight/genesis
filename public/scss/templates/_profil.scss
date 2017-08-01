@@ -1,0 +1,61 @@
+.profil {
+
+    &-img {
+
+        position: relative;
+        width: 90%;
+
+        &-blur {
+            position: absolute;
+            filter: blur(20px);
+            height: 700px;
+            width: 100%;
+            z-index: -1;
+
+        }
+
+        &-avatar {
+            height: 700px;
+        }
+
+    }
+
+    &-mobile {
+        position: absolute;
+        bottom: 0px;
+        color: white !important;
+        margin-left: 20px;
+    }
+
+    &-sub {
+        font-weight: 700;
+        font-size: 30px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    
+
+}
+
+@media (max-width: $medium-screen-up) {
+
+    .header {
+        &-content-profil {
+            margin-left: 20px;
+        }
+
+        &-title-profil {
+            font-size: 35px !important;
+            color: white !important;
+        }
+
+        &-subtitle-profil {
+            font-size: 25px !important;
+        }
+
+    }
+
+    
+}

@@ -1,0 +1,516 @@
+body {
+    color: #4A4A4A;
+}
+
+.top {
+    position: relative;
+}
+
+.text-content {
+    color: #4A4A4A !important;
+}
+
+.container-without-header {
+    padding-top: 6rem;
+}
+
+header {
+    background: url(../img/tandem0019.jpg) center center no-repeat #4BA5EF;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-second {
+    height: 400px;
+}
+
+
+.header-psychologie-clinique {
+    background: url(../img/tandem0012.jpg) center center no-repeat #4BA5EF;
+    background-size: cover;
+}
+
+.header-neuropsychologie {
+    background: url(../img/tandem0007.jpg) center center no-repeat #4BA5EF;
+    background-size: cover;
+}
+
+.header-care {
+    background: url(../img/tandem0003.jpg) center center no-repeat #4BA5EF;
+    background-size: cover;
+}
+
+@media (max-width:601px) {
+
+    header {
+        background: url(../img/tandem0007.jpg) center center no-repeat #4BA5EF;
+        background-size: cover;
+    }
+
+}
+
+.header-content {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    flex-direction: column;
+    padding-bottom: 4%;
+}
+
+.header-content-second {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.header-title-second {
+    font-weight: 900;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.header-subtitle-second {
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+@media (max-width: 992px) {
+
+    .header-content-profil {
+        margin-left: 20px;
+    }
+
+    .header-title-profil {
+        font-size: 35px !important;
+        color: white !important;
+    }
+
+    .header-subtitle-profil {
+        font-size: 25px !important;
+    }
+}
+
+
+
+.header-title-profil {
+    font-weight: 900;
+    font-size: 45px;
+    color: #4A4A4A;
+}
+
+.header-subtitle-profil {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.header-contact-profil {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+nav .brand-logo {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    padding-left: 10px;
+}
+
+.title h1 {
+    font-weight: 900;
+    font-size: 25px;
+    color: rgba(75, 165, 239, 0.8);
+    display: block;
+}
+
+nav .brand-logo img {
+
+}
+
+
+.heading2-homepage {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.56rem;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.heading2-homepage::after {
+    content: ' ';
+    background-color: #E4E4E4;
+    height: 5px;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30%;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2.56rem;
+    letter-spacing: 1px;
+    text-align: left;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+
+.content-title {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+nav {
+    position: absolute;
+    z-index: 999;
+}
+
+.nav-homepage {
+    padding-top: 4%;
+}
+
+.nav-blue ul a {
+    color: #4BA5EF;
+}
+
+.nav-blue p {
+    color: #4BA5EF;
+}
+
+.nav-blue #menu-icon object {
+    color: #4BA5EF;
+}
+
+.nav-second {
+    padding: 0 60px;
+}
+
+.nav-second a img {
+    margin-top: 10px;
+    width: 60px;
+}
+
+.nav-header {
+    margin-top: 20px;
+}
+
+.nav-header h1 {
+    font-weight: 900;
+    font-size: 30px;
+    color: #4BA5EF;
+    margin: 0;
+    display: block;
+    padding-top: 80px;
+}
+
+.button-collapse {
+    position: relative;
+}
+
+.button-collapse p {
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+
+.overlay-darken {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.list-reason {
+    margin: 60px 0;
+    text-align: left;
+}
+
+@media (max-width:601px) {
+
+    .item-reason {
+        text-align: center;
+    }
+
+}
+
+
+.img-reason {
+    text-align: center;
+    height: 120px;
+    
+}
+
+.img-reason img {
+    height: 100px;
+}
+
+.content-reason {
+
+}
+
+.title-reason {
+    font-weight: 700;
+font-size: 30px;
+color: #4A4A4A;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.divider-img {
+    background: url(../img/tandem0025.jpg) center center no-repeat #4BA5EF;
+    background-size: cover;
+    padding: 200px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+}
+
+.divider-img p {
+    font-size: 1.3em;
+}
+
+.container-profil {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.card-profil {
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.card-profil .aria, .card-profil .cath {
+    width: 300px;
+    height: 235px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.aria {
+    background: url(../img/tandem0026.jpg) center top no-repeat #4BA5EF;
+    background-size: cover;
+}
+
+.cath {
+    background: url(../img/tandem0028.jpg) center top no-repeat #4BA5EF;
+    background-size: cover;
+}
+
+.card-profil span {
+    display: block;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.card-profil p {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #4A4A4A;
+    letter-spacing: 1px;
+}
+
+.list-bullet {
+    padding-left: 30px !important;
+}
+
+.list-bullet li {
+    list-style-type:disc !important;
+}
+
+.list-support {
+    line-height: 3em;
+}
+
+.contact {
+    text-align: center;
+}
+
+.title-contact {
+    font-weight: 700;
+    font-size: 30px;
+    color: #4BA5EF;
+}
+
+.subtitle-contact {
+    font-size: 21px;
+    color: #4BA5EF;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.support {
+    background-color: #4BA5EF;
+    color:white;
+}
+
+.bottom {
+    background-color: #4BA5EF;
+}
+
+footer .brand-logo {
+    float: left;
+}
+
+footer .brand-logo img {
+    width: 36px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+
+/* Contact page */
+
+
+
+.card-contact {
+    text-align: left;
+    display: block;
+    padding-left: 70px !important;
+}
+
+@media (max-width: 992px) {
+
+    .card-contact {
+        text-align: center;
+        display: block;
+        padding-left: 0 !important;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+.card-contact p:first-child { 
+    font-weight: 700;
+}
+
+.btn-submit {
+    padding-right: 2rem;
+}
+
+/* Specialty page */
+
+.specialty {
+    text-align: center;
+}
+
+.specialty-title {
+    display: block;
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* Profil page */
+
+.header-content-profil {
+
+}
+
+.container-img-profil {
+    position: relative;
+    width: 90%;
+}
+
+.img-profil {
+    height: 700px;
+}
+
+.img-profil-blur {
+    position: absolute;
+    filter: blur(20px);
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+}
+
+.container-img-title {
+    position: absolute;
+    bottom: 0px;
+    color: white !important;
+}
+
+/* Care page */
+
+
+.list-care {
+    margin: 60px 0;
+    text-align: left;
+}
+
+@media (max-width:601px) {
+
+    .item-care {
+        text-align: center;
+    }
+
+}
+
+.img-care {
+    text-align: center;
+}
+
+.img-care img {
+    height: 130px;
+}
+
+.content-care {
+    text-align: left;
+}
+
+.title-care {
+    font-weight: 700;
+font-size: 30px;
+color: #4A4A4A;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.content-title-care {
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}

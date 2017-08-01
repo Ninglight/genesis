@@ -1,0 +1,67 @@
+
+.list-reason {
+    margin: 60px 0;
+    text-align: left;
+}
+
+@media (max-width:601px) {
+
+    .item-reason {
+        text-align: center;
+    }
+
+}
+
+
+.img-reason {
+    text-align: center;
+    height: 120px;
+    
+}
+
+.img-reason img {
+    height: 100px;
+}
+
+.list-bullet {
+    padding-left: 30px !important;
+}
+
+.list-bullet li {
+    list-style-type:disc !important;
+}
+
+.list-support {
+    line-height: 3em;
+}
+
+.list-icon {
+    margin: 60px 0;
+    text-align: left;
+}
+
+.item-icon {
+
+    &-img {
+        text-align: center;
+
+        img {
+            height: 100px;
+        }
+    }
+
+
+    &-content {
+        text-align: left;
+    }
+    
+}
+
+@media (max-width:601px) {
+
+    .item-icon {
+        text-align: center;
+    }
+
+}
+

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Open Sans";
+  src: local(Open Sans Light), 
+    url("../fonts/roboto/Open-Sans-Light.ttf") format("ttf"), 
+    url("../fonts/roboto/Open-Sans-Light.ttf") format("ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local(Open Sans Regular), 
+    url("../fonts/roboto/Open-Sans-Regular.ttf") format("ttf"), 
+    url("../fonts/roboto/Open-Sans-Regular.ttf") format("ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local(Open Sans Semi Medium), 
+    url("../fonts/roboto/Open-Sans-SemiBold.ttf") format("ttf"), 
+    url("../fonts/roboto/Open-Sans-SemiBold.ttf") format("ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local(Open Sans Bold), 
+    url("../fonts/roboto/Open-Sans-Bold.ttf") format("ttf"), 
+    url("../fonts/roboto/Open-Sans-Bold.ttf") format("ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: local(Open Sans Extra Bold), 
+    url("../fonts/roboto/Open-Sans-ExtraBold.ttf") format("ttf"), 
+    url("../fonts/roboto/Open-Sans-ExtraBold.ttf") format("ttf");
+  font-weight: 900;
+}
