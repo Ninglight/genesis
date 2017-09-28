@@ -11,7 +11,7 @@
         <h1>{{ $title }}</h1>
         <span class="header-subtitle-second">{{ $subtitle }}</span>
         @isset($content)
-            <p class="content-title">{{ $content }}</p>
+            <p class="content-title"><?php echo $content ?></p>
         @endisset
     </div>
 </header>

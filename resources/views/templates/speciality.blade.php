@@ -12,7 +12,7 @@
         @endcomponent
 
         @component('organisms.header', [
-            'type' => $typeHeader, 
+            'type' => 'second', 
             'bg' => $url, 
             'title' => $title, 
             'subtitle' => $subtitle
@@ -28,12 +28,15 @@
             <div class="row">
                 <div class="col s12 m12 l8">
 
-                    {{ $content }}
-                    
+                    <?php echo $content ?>
+
                 </div>
-                <div class="col s12 m12 l4">
+                <div class="col s12 m12 l4 specialty">
+
+                    <span class="specialty-title">Specialité de </span>
 
                     @component('molecules.card', [
+                        'type' => 'profil',
                         'name' => $nameProfil,
                         'speciality' => $specialityProfil,
                         'url' => $urlProfil,

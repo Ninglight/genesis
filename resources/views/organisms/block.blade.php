@@ -32,7 +32,7 @@
             @endisset
 
             @isset($icon)
-                <p>{{ $icon }}</p>
+                <img src="{{ $icon }}" alt="">
             @endisset
 
             @isset($content)
@@ -41,9 +41,9 @@
 
             @isset($button)
                 @if ($type == 'blue')
-                    <a href="contact.html"><button class="waves-effect waves-light white blue-text btn">{{ $button }}</button></a>
+                    <a href="{{ $url }}"><button class="waves-effect waves-light white blue-text btn">{{ $button }}</button></a>
                 @else
-                    <a href="contact.html"><button class="waves-effect waves-light btn">{{ $button }}</button></a>
+                    <a href="{{ $url }}"><button class="waves-effect waves-light btn">{{ $button }}</button></a>
                 @endif
                 
             @endisset

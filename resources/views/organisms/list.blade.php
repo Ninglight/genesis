@@ -9,7 +9,7 @@
 
     @if ($type == 'icon')
         <div class="list-icon">
-            @isset($contentTop)
+            @isset($items)
                 @foreach ($items as $item)
                 
                     <div class="row item-icon">
@@ -20,16 +20,17 @@
                         @endif
                         @if ($item["icon"])
                             <div class="col s12 m9 l10 item-icon-content">
+                                
                                 <h3>{{ $item["title"] }}</h3>
                                 
-                                    {{ $item["content"] }}
+                                <?php echo $item["content"]; ?>
                                 
                             </div>
                         @else
                             <div class="col s12 item-icon-content">
                                 <h3>{{ $item["title"] }}</h3>
                                 
-                                    {{ $item["content"] }}
+                                <?php echo $item["content"]; ?>
                                 
                             </div>
                         @endif
@@ -43,21 +44,22 @@
         <div class="row list-card">
             @foreach ($items as $item)
                 <div class="spacing-1 col s12 m12 l6">
-                    <div class="card-profil z-depth-2">
-                        <div class="{{ $item['class'] }}"></div>
-                        <span>{{ $item["name"] }}</span>
-                        <p>{{ $item["speciality"] }}</p>
-                        <a href="{{ $item['url'] }}">
-                            <button class="waves-effect waves-light btn">Voir le profil</button>
-                        </a>
-                    </div>
+                    @component('molecules.card', [
+                        'type' => 'profil',
+                        'name' => $item["name"],
+                        'speciality' => $item["speciality"],
+                        'url' => $item['url'],
+                        'class' => $item['class']
+                    ])
+
+                    @endcomponent
                 </div>
             @endforeach
         </div>
     @endif
 
     @isset($contentBottom)
-        <p>{{ $contentBottom }}</p>
+        <p><?php echo $contentBottom; ?></p>
     @endisset
 
     <p></p>

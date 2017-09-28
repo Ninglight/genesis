@@ -2,28 +2,30 @@
 @component('pages.app')
 
     @slot('title')
-        {{ $title }} - {{ $subtitle }} | Tandem
+        {{ $title }} | Tandem
     @endslot
 
     @slot('top')
 
-        @component('organisms.nav', ['type' => 'white'])
-
-        @endcomponent
-
-        @component('organisms.header', [
-            'type' => 'second', 
-            'bg' => 'care', 
-            'title' => $title, 
-            'subtitle' => $subtitle
+        @component('organisms.nav', [
+            'type' => 'home'
         ])
 
+        @endcomponent
+        
+        @component('organisms.header', [
+            'type' => 'home', 
+            'title' => $mark, 
+            'subtitle' => $title, 
+            'content' => $intro
+        ])
+            
         @endcomponent
 
     @endslot
 
     @slot('main')
-
+        
         @component('organisms.list', $list1)
 
         @endcomponent
@@ -32,12 +34,10 @@
 
         @endcomponent
 
-
         @component('organisms.list', $list2)
 
         @endcomponent
-        
-            
+
         @component('organisms.block', $block2)
 
         @endcomponent
@@ -46,6 +46,8 @@
 
         @endcomponent
 
+       
     @endslot
 
 @endcomponent
+

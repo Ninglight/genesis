@@ -16,7 +16,7 @@
 });*/
 
 Route::get('/', function () {
-    return view('index');
+    return view('index', ['title' => 'Samantha']);
 });
 
 Route::get('/psychologie-clinique', function () {
